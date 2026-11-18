@@ -1,0 +1,57 @@
+{
+  "model": "dandelin/vilt-b32-finetuned-vqa",
+  "revision": "d0a1f6ab88522427a7ae76ceb6e1e1e7b68a1d08",
+  "load_info": "{'missing_keys': set(), 'unexpected_keys': set(), 'mismatched_keys': set(), 'error_msgs': []}",
+  "standard_processor": {
+    "do_normalize": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "resample": 3,
+    "size": {
+      "shortest_edge": 384
+    },
+    "size_divisor": 32,
+    "do_rescale": true,
+    "rescale_factor": 0.00392156862745098,
+    "do_pad": true,
+    "image_processor_type": "ViltImageProcessor"
+  },
+  "low_processor": {
+    "do_normalize": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "resample": 3,
+    "size": {
+      "shortest_edge": 256
+    },
+    "size_divisor": 32,
+    "do_rescale": true,
+    "rescale_factor": 0.00392156862745098,
+    "do_pad": true,
+    "image_processor_type": "ViltImageProcessor"
+  },
+  "label_count": 3129,
+  "patch_size": 32,
+  "text_limit": 40,
+  "max_image_length": -1,
+  "checkpoint_sha256": "4d5f3409947b0369487ece7c5868f0040ceb67d25735dbb4ac5e99e03bab3a19",
+  "prediction_cache_id": "1058bf9edbcf3d1aa3ee497476d519c56067a25fcf8b4bd5789a5d1e75433dc9"
+}

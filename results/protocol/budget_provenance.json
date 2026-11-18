@@ -1,0 +1,444 @@
+{
+  "all_384": 395923,
+  "all_256": 171285,
+  "budgets": [
+    {
+      "key": "60",
+      "fraction": 0.6,
+      "target_total_patches": 237553,
+      "realized_total_patches": 237553
+    },
+    {
+      "key": "75",
+      "fraction": 0.75,
+      "target_total_patches": 296942,
+      "realized_total_patches": 296942
+    },
+    {
+      "key": "90",
+      "fraction": 0.9,
+      "target_total_patches": 356330,
+      "realized_total_patches": 356330
+    }
+  ],
+  "methods": {
+    "always_384": {
+      "budget_target": null,
+      "random_seed": null,
+      "actual_patches": 395923,
+      "allocation_ms_full_test": 0.0
+    },
+    "always_256": {
+      "budget_target": null,
+      "random_seed": null,
+      "actual_patches": 171285,
+      "allocation_ms_full_test": 0.0
+    },
+    "yes_no_heuristic": {
+      "budget_target": null,
+      "random_seed": null,
+      "actual_patches": 309549,
+      "allocation_ms_full_test": 0.0
+    },
+    "category_60": {
+      "budget_target": 0.6,
+      "random_seed": null,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 12.203828000565409
+    },
+    "risk_60": {
+      "budget_target": 0.6,
+      "random_seed": null,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 11.299209001663257
+    },
+    "random_60_5110": {
+      "budget_target": 0.6,
+      "random_seed": 5110,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 11.351401999490918
+    },
+    "random_60_5111": {
+      "budget_target": 0.6,
+      "random_seed": 5111,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.894373001065105
+    },
+    "random_60_5112": {
+      "budget_target": 0.6,
+      "random_seed": 5112,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.826355999597581
+    },
+    "random_60_5113": {
+      "budget_target": 0.6,
+      "random_seed": 5113,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.805795000123908
+    },
+    "random_60_5114": {
+      "budget_target": 0.6,
+      "random_seed": 5114,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.473611999259447
+    },
+    "random_60_5115": {
+      "budget_target": 0.6,
+      "random_seed": 5115,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.538835998886498
+    },
+    "random_60_5116": {
+      "budget_target": 0.6,
+      "random_seed": 5116,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.309518000212847
+    },
+    "random_60_5117": {
+      "budget_target": 0.6,
+      "random_seed": 5117,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.251179999613669
+    },
+    "random_60_5118": {
+      "budget_target": 0.6,
+      "random_seed": 5118,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.320737999791163
+    },
+    "random_60_5119": {
+      "budget_target": 0.6,
+      "random_seed": 5119,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 11.814868999863393
+    },
+    "random_60_5120": {
+      "budget_target": 0.6,
+      "random_seed": 5120,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 11.12530599857564
+    },
+    "random_60_5121": {
+      "budget_target": 0.6,
+      "random_seed": 5121,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.591004000161774
+    },
+    "random_60_5122": {
+      "budget_target": 0.6,
+      "random_seed": 5122,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.845962000530562
+    },
+    "random_60_5123": {
+      "budget_target": 0.6,
+      "random_seed": 5123,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.485459999472369
+    },
+    "random_60_5124": {
+      "budget_target": 0.6,
+      "random_seed": 5124,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.66075800008548
+    },
+    "random_60_5125": {
+      "budget_target": 0.6,
+      "random_seed": 5125,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 12.499022999691078
+    },
+    "random_60_5126": {
+      "budget_target": 0.6,
+      "random_seed": 5126,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.629238000547048
+    },
+    "random_60_5127": {
+      "budget_target": 0.6,
+      "random_seed": 5127,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.762968000562978
+    },
+    "random_60_5128": {
+      "budget_target": 0.6,
+      "random_seed": 5128,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 11.08784600000945
+    },
+    "random_60_5129": {
+      "budget_target": 0.6,
+      "random_seed": 5129,
+      "actual_patches": 237553,
+      "allocation_ms_full_test": 10.82597399908991
+    },
+    "category_75": {
+      "budget_target": 0.75,
+      "random_seed": null,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 19.008257000677986
+    },
+    "risk_75": {
+      "budget_target": 0.75,
+      "random_seed": null,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 18.41104100094526
+    },
+    "random_75_5110": {
+      "budget_target": 0.75,
+      "random_seed": 5110,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 19.71869099907053
+    },
+    "random_75_5111": {
+      "budget_target": 0.75,
+      "random_seed": 5111,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.8789740002685
+    },
+    "random_75_5112": {
+      "budget_target": 0.75,
+      "random_seed": 5112,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.90332200107514
+    },
+    "random_75_5113": {
+      "budget_target": 0.75,
+      "random_seed": 5113,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.85978400039312
+    },
+    "random_75_5114": {
+      "budget_target": 0.75,
+      "random_seed": 5114,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.72035200156097
+    },
+    "random_75_5115": {
+      "budget_target": 0.75,
+      "random_seed": 5115,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.623794001337956
+    },
+    "random_75_5116": {
+      "budget_target": 0.75,
+      "random_seed": 5116,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.34816700081865
+    },
+    "random_75_5117": {
+      "budget_target": 0.75,
+      "random_seed": 5117,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 18.726145000982797
+    },
+    "random_75_5118": {
+      "budget_target": 0.75,
+      "random_seed": 5118,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.879434999485966
+    },
+    "random_75_5119": {
+      "budget_target": 0.75,
+      "random_seed": 5119,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.490465001174016
+    },
+    "random_75_5120": {
+      "budget_target": 0.75,
+      "random_seed": 5120,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.48058100019989
+    },
+    "random_75_5121": {
+      "budget_target": 0.75,
+      "random_seed": 5121,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.27991000007023
+    },
+    "random_75_5122": {
+      "budget_target": 0.75,
+      "random_seed": 5122,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.239467000763398
+    },
+    "random_75_5123": {
+      "budget_target": 0.75,
+      "random_seed": 5123,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.109709000578732
+    },
+    "random_75_5124": {
+      "budget_target": 0.75,
+      "random_seed": 5124,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 18.05589400100871
+    },
+    "random_75_5125": {
+      "budget_target": 0.75,
+      "random_seed": 5125,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.305329000009806
+    },
+    "random_75_5126": {
+      "budget_target": 0.75,
+      "random_seed": 5126,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 16.85007800006133
+    },
+    "random_75_5127": {
+      "budget_target": 0.75,
+      "random_seed": 5127,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 16.867591999471188
+    },
+    "random_75_5128": {
+      "budget_target": 0.75,
+      "random_seed": 5128,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.11367200005043
+    },
+    "random_75_5129": {
+      "budget_target": 0.75,
+      "random_seed": 5129,
+      "actual_patches": 296942,
+      "allocation_ms_full_test": 17.206341999553842
+    },
+    "category_90": {
+      "budget_target": 0.9,
+      "random_seed": null,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.90492900040408
+    },
+    "risk_90": {
+      "budget_target": 0.9,
+      "random_seed": null,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.862336999722174
+    },
+    "random_90_5110": {
+      "budget_target": 0.9,
+      "random_seed": 5110,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.392525999137433
+    },
+    "random_90_5111": {
+      "budget_target": 0.9,
+      "random_seed": 5111,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.174120001480333
+    },
+    "random_90_5112": {
+      "budget_target": 0.9,
+      "random_seed": 5112,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.01894200091192
+    },
+    "random_90_5113": {
+      "budget_target": 0.9,
+      "random_seed": 5113,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.100908999462263
+    },
+    "random_90_5114": {
+      "budget_target": 0.9,
+      "random_seed": 5114,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.25385100003041
+    },
+    "random_90_5115": {
+      "budget_target": 0.9,
+      "random_seed": 5115,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.140709000566858
+    },
+    "random_90_5116": {
+      "budget_target": 0.9,
+      "random_seed": 5116,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 18.941844999062596
+    },
+    "random_90_5117": {
+      "budget_target": 0.9,
+      "random_seed": 5117,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.16017700023076
+    },
+    "random_90_5118": {
+      "budget_target": 0.9,
+      "random_seed": 5118,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.245550998675753
+    },
+    "random_90_5119": {
+      "budget_target": 0.9,
+      "random_seed": 5119,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.005141999514308
+    },
+    "random_90_5120": {
+      "budget_target": 0.9,
+      "random_seed": 5120,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.2085960006807
+    },
+    "random_90_5121": {
+      "budget_target": 0.9,
+      "random_seed": 5121,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.1062369995052
+    },
+    "random_90_5122": {
+      "budget_target": 0.9,
+      "random_seed": 5122,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 18.949307999719167
+    },
+    "random_90_5123": {
+      "budget_target": 0.9,
+      "random_seed": 5123,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.001430000571418
+    },
+    "random_90_5124": {
+      "budget_target": 0.9,
+      "random_seed": 5124,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 18.996324000909226
+    },
+    "random_90_5125": {
+      "budget_target": 0.9,
+      "random_seed": 5125,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 18.998486000782577
+    },
+    "random_90_5126": {
+      "budget_target": 0.9,
+      "random_seed": 5126,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.05766100026085
+    },
+    "random_90_5127": {
+      "budget_target": 0.9,
+      "random_seed": 5127,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.18332300010661
+    },
+    "random_90_5128": {
+      "budget_target": 0.9,
+      "random_seed": 5128,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 19.196565001038834
+    },
+    "random_90_5129": {
+      "budget_target": 0.9,
+      "random_seed": 5129,
+      "actual_patches": 356330,
+      "allocation_ms_full_test": 18.98793799955456
+    }
+  },
+  "common_text_and_geometry_setup_ms_full_test": 46.48419900149747,
+  "tie_order": "fixed manifest order",
+  "random_null": "seeded random priorities with the same exact-feasibility rule",
+  "budget_unit": "valid visual patches, excluding the visual CLS token"
+}

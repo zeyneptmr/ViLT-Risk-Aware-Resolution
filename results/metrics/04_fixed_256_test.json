@@ -1,0 +1,17 @@
+{
+  "examples": 2000,
+  "vqa_score_pct": 76.06,
+  "total_visual_patches": 171285,
+  "mean_visual_patches": 85.6425,
+  "mean_padded_encoder_length": 96.117,
+  "forward_ms_mean": 12.783186357498169,
+  "forward_ms_p50": 12.708864212036133,
+  "forward_ms_p95": 13.538304328918457,
+  "wall_forward_ms_mean": 12.808856754030785,
+  "wall_forward_ms_p50": 12.73354249951808,
+  "wall_forward_ms_p95": 13.566290600647335,
+  "end_to_end_ms_mean": 25.847317979011677,
+  "end_to_end_ms_p50": 24.915535999753047,
+  "end_to_end_ms_p95": 27.660851749760695,
+  "peak_allocated_mib": 470.61474609375
+}

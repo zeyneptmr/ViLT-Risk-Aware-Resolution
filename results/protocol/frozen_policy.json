@@ -1,0 +1,174 @@
+{
+  "target": "signed VQA soft-score gain at 384 versus 256",
+  "global_mean_gain": 0.0288,
+  "pseudo_count": 15,
+  "groups_from_development_only": [
+    {
+      "level": "category",
+      "category": "color",
+      "detail_group": "",
+      "n": 85,
+      "raw_mean_gain": 0.043529411764705886,
+      "smoothed_mean_gain": 0.041319999999999996
+    },
+    {
+      "level": "category",
+      "category": "counting",
+      "detail_group": "",
+      "n": 108,
+      "raw_mean_gain": 0.07870370370370369,
+      "smoothed_mean_gain": 0.07261788617886179
+    },
+    {
+      "level": "category",
+      "category": "other",
+      "detail_group": "",
+      "n": 392,
+      "raw_mean_gain": 0.027040816326530617,
+      "smoothed_mean_gain": 0.027105651105651107
+    },
+    {
+      "level": "category",
+      "category": "yes_no",
+      "detail_group": "",
+      "n": 415,
+      "raw_mean_gain": 0.014457831325301205,
+      "smoothed_mean_gain": 0.014958139534883721
+    },
+    {
+      "level": "detail",
+      "category": "color",
+      "detail_group": "attribute",
+      "n": 84,
+      "raw_mean_gain": 0.04404761904761905,
+      "smoothed_mean_gain": 0.043634343434343435
+    },
+    {
+      "level": "detail",
+      "category": "color",
+      "detail_group": "fine_detail",
+      "n": 1,
+      "raw_mean_gain": 0.0,
+      "smoothed_mean_gain": 0.038737499999999994
+    },
+    {
+      "level": "detail",
+      "category": "counting",
+      "detail_group": "attribute",
+      "n": 4,
+      "raw_mean_gain": -0.15,
+      "smoothed_mean_gain": 0.02575096277278563
+    },
+    {
+      "level": "detail",
+      "category": "counting",
+      "detail_group": "fine_detail",
+      "n": 2,
+      "raw_mean_gain": 0.45,
+      "smoothed_mean_gain": 0.11701578192252511
+    },
+    {
+      "level": "detail",
+      "category": "counting",
+      "detail_group": "no_cue",
+      "n": 102,
+      "raw_mean_gain": 0.08039215686274509,
+      "smoothed_mean_gain": 0.07939545549301646
+    },
+    {
+      "level": "detail",
+      "category": "other",
+      "detail_group": "attribute",
+      "n": 23,
+      "raw_mean_gain": 0.09565217391304348,
+      "smoothed_mean_gain": 0.06859433596275703
+    },
+    {
+      "level": "detail",
+      "category": "other",
+      "detail_group": "fine_detail",
+      "n": 10,
+      "raw_mean_gain": 0.03,
+      "smoothed_mean_gain": 0.028263390663390665
+    },
+    {
+      "level": "detail",
+      "category": "other",
+      "detail_group": "no_cue",
+      "n": 329,
+      "raw_mean_gain": 0.023708206686930088,
+      "smoothed_mean_gain": 0.02385635106565339
+    },
+    {
+      "level": "detail",
+      "category": "other",
+      "detail_group": "reading",
+      "n": 16,
+      "raw_mean_gain": 0.01875,
+      "smoothed_mean_gain": 0.022793056986605376
+    },
+    {
+      "level": "detail",
+      "category": "other",
+      "detail_group": "scene",
+      "n": 14,
+      "raw_mean_gain": 0.0,
+      "smoothed_mean_gain": 0.014020164364991951
+    },
+    {
+      "level": "detail",
+      "category": "yes_no",
+      "detail_group": "attribute",
+      "n": 27,
+      "raw_mean_gain": 0.037037037037037035,
+      "smoothed_mean_gain": 0.02915171650055371
+    },
+    {
+      "level": "detail",
+      "category": "yes_no",
+      "detail_group": "fine_detail",
+      "n": 2,
+      "raw_mean_gain": 0.0,
+      "smoothed_mean_gain": 0.013198358413132695
+    },
+    {
+      "level": "detail",
+      "category": "yes_no",
+      "detail_group": "no_cue",
+      "n": 384,
+      "raw_mean_gain": 0.013020833333333334,
+      "smoothed_mean_gain": 0.013093664393541994
+    },
+    {
+      "level": "detail",
+      "category": "yes_no",
+      "detail_group": "scene",
+      "n": 2,
+      "raw_mean_gain": 0.0,
+      "smoothed_mean_gain": 0.013198358413132695
+    }
+  ],
+  "detail_rules": [
+    [
+      "reading",
+      "\\b(?:what does .{1,50} say|what(?: is the)? (?:word|letter|name|number) (?:on|written)|text|written|spelled|license plate|sign say|read|logo|brand)\\b"
+    ],
+    [
+      "fine_detail",
+      "\\b(?:small|tiny|little|farthest|furthest|in the background|far away|corner|pattern|stripe|striped|spot|button|label)\\b"
+    ],
+    [
+      "attribute",
+      "\\b(?:colou?r|shade|shape|material|texture|wearing|made of)\\b"
+    ],
+    [
+      "scene",
+      "\\b(?:indoors|outdoors|inside or outside|day or night|weather|what room|what sport|what season|what kind of place)\\b"
+    ]
+  ],
+  "count_regex": "\\b(?:how many|how much|number of|count the|quantity of)\\b",
+  "color_regex": "\\b(?:what colou?r|which colou?r|colou?r of|what shade)\\b",
+  "yesno_regex": "^(?:is|are|was|were|am|do|does|did|has|have|had|can|could|will|would|should)\\b",
+  "fallback": "unseen detail uses smoothed category; unseen category uses global mean",
+  "priority": "estimated gain divided by extra visual patches"
+}
